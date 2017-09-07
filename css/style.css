@@ -95,7 +95,7 @@ width:150px;
 height:100%;
 display:table;
 min-height:100%;
-vertical-align:milddle;
+vertical-align:middle;
 width:100%;
 position:relative;
 }
@@ -106,14 +106,14 @@ vertical-align:middle;
 z-index:3;
 text-align:center;
 color:#fff;
-font-size:16px;
+font-size:20px;
 z-index:99;
 }
 .welcome-text .container{
-max-width:800px;
+max-width:500px;
 }
 .home-parallax, .parallax-bg, #home{
-background:url(../img/demo-images/parallax-bg.jpg) no-repeat fixed center top;
+background:url(/img/demo-images/image_14.jpg) no-repeat fixed center top;
 /*background-size*/
 -webkit-background-size:/*@@prefixmycss->No equivalent*/;
    -moz-background-size:cover;
@@ -140,11 +140,6 @@ content:"";
 
 .parallax-overlay{background-color:#57BDDB}
 
-.welcome-text h2{
-font-size:60px;
-letter-spacing:10px;
-text-transform:uppercase;
-}
 .social-bookmark{
 margin-top:30px;
 }
@@ -188,14 +183,14 @@ color:#57bddb;
 font-weight:300;
 font-size:24px;
 text-transform:uppercase;
-letter-spacing:2px;
+letter-spacing:3px;
 }
 .navbar-default a.navbar-brand span{
 color:#334852;
 }
 .navbar-default .navbar-nav > li > a{
 color:#86989d;
-letter-spacing:2px;
+letter-spacing:3px;
 text-transform:uppercase;
 }
 .navbar-default .navbar-nav > li.current > a,.navbar-default .navbar-nav > li > a:hover{
@@ -256,7 +251,6 @@ color:#57bddb;
 background:transparent;
 }
 .sign{
-  border: 2px solid #57bddb;
   opacity: 1;
   background-color: #b3ffff;
   transition: .5s;
@@ -281,7 +275,7 @@ opacity:.7;
 
 
 #features{
-background:url(../img/demo-images/parallax-bg.jpg) no-repeat fixed center top;
+background:url(/img/demo-images/image_14.jpg) no-repeat fixed center top;
 /*background-size*/
 -webkit-background-size:/*@@prefixmycss->No equivalent*/;
    -moz-background-size:cover;
@@ -496,7 +490,7 @@ color:#fff;
 color:#fff;
 }
 .parallax-bg, #parallax_1{
-background:url(../img/demo-images/parallax-one.jpg) no-repeat scroll center top;
+background:url(/img/demo-images/image_14.jpg) no-repeat scroll center top;
 /*background-size*/
 -webkit-background-size:/*@@prefixmycss->No equivalent*/;
    -moz-background-size:cover;
@@ -653,7 +647,7 @@ border-color:#57bddb;
 /* -----------------------------------	*/
 
 #project-count{
-background:url(../img/demo-images/parallax-one.jpg);
+background:url(/img/demo-images/image_14.jpg);
 /*background-size*/
 -webkit-background-size:/*@@prefixmycss->No equivalent*/;
    -moz-background-size:cover;
